@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kirby - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          KIRBY
+          <div class="contact_info">
+            kirby@planetpopstar.com🖥️
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          +1-800-k-i-r-b-y ☎️
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Reccomendations</a>
+
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://i.pinimg.com/originals/83/30/21/833021a26c35dbc21a877a87da9d28b2.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Kirby!👋
+          </h1>
+          <p>
+            I hail from 💫Planet Popstar💫, a yellow star, and spends most of my time in a territory called Dream Land. 
+            I have a pink, spherical, body with small stubby arms and red feet. I will fight the Waddle Dee's until my last breathe!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://cdn.wikirby.com/thumb/8/87/KRtDLD_Fire.png/200px-KRtDLD_Fire.png"/>
+          <h6>Fire</h6>
+          <p>Kirby gains the ability to breathe fire and perform other fiery attacks. </p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://cdn.wikirby.com/thumb/3/31/KRtDLD_Fighter.png/100px-KRtDLD_Fighter.png"/>
+          <h6>Fighter</h6>
+          <p>Kirby gains access to a large array of martial arts-based moves. </p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://cdn.wikirby.com/thumb/6/6f/KDB_Jelly_Kirby_artwork.png/125px-KDB_Jelly_Kirby_artwork.png"/>
+            <h6>Jelly</h6>
+            <p>Kirby turns into amorphous gelatin and can phase through breakable objects as well as many enemy attacks. </p>
+          </div>  
+
+        <div class="skill">
+            <img src="https://cdn.wikirby.com/thumb/0/0c/KRtDLD_Ninja.png/125px-KRtDLD_Ninja.png"/>
+            <h6>Ninja</h6>
+            <p>Kirby gains access to a large number of ninja skills and weapons. </p>
+          </div>  
+
+        <div class="skill">
+            <img src="https://cdn.wikirby.com/thumb/0/05/KSA_Yo-Yo_Kirby_Artwork.png/100px-KSA_Yo-Yo_Kirby_Artwork.png"/>
+            <h6>Yo-Yo</h6>
+            <p>Kirby gains a yo-yo which he can attack enemies with using stylish moves.</p>
+          </div>  
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Kirby's Dream Land 2</h3>
+            <ul>
+              <li>Saved Dream Land from being turned into a dark world by Dark Matter.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Kirby's Dream Buffet</h3>
+            <ul>
+              <li>Raced against mini Kirby's and Waddle Dees and successfully ate the most
+                  fruit and cakes, thus becoming the most spherical.
+              </li>
+            </ul>
+          </div>
+          <hr>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Kirby is very pink and spherical.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Kirby can inhale enemies and take over their powers. Kirby is very adaptable.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Kirby's feet are very red and he can float in the air for short bursts.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg> 
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <h3>TYSM <3</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
